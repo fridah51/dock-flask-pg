@@ -1,5 +1,5 @@
 from sqlalchemy.orm import backref
-from app.main import db
+from main import db
 from datetime import datetime
 
 

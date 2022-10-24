@@ -1,6 +1,6 @@
 from sqlalchemy.orm import backref
 from flask_login import UserMixin
-from app.main import db
+from main import db
 
 
 class User(UserMixin,db.Model):
